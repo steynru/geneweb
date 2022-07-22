@@ -13,4 +13,4 @@ spec:
     name: p2316
   selector:
     app: gwsetup
-  externalIPs: [ FILL THIS IN ] # Sample value: "192.168.1.123"
+  externalIPs: ["10.30.0.30" ] # Sample value: "192.168.1.123"

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: geneweb
-        image: cascala/geneweb:version-7.0.0
+        image: thdcpharbor01.int.thdc.tech/thdc/jeffernz/geneweb
         imagePullPolicy: Always
         ports:
         - containerPort: 2317

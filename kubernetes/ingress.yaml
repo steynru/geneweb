@@ -13,10 +13,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - FILL THIS IN # Sample value: geneweb.mydomain.org
+    - 10.30.0.30.nip.io # Sample value: geneweb.mydomain.org
     secretName: geneweb-tls
   rules:
-  - host: FILL THIS IN # Sample value: geneweb.mydomain.org
+  - host: 10.30.0.30.nip.io # Sample value: geneweb.mydomain.org
     http:
       paths:
       - path: /
