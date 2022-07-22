@@ -4,7 +4,7 @@ metadata:
   name: geneweb-pvc
   namespace: geneweb
 spec:
-  storageClassName: nfs-provisioner
+  storageClassName: nfs-client
   accessModes:
     - ReadWriteMany
   resources:

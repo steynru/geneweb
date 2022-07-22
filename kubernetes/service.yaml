@@ -13,5 +13,5 @@ spec:
     name: p2317
   selector:
     app: geneweb
-  # This is the local IP of vm0  
+  # This is the local IP of vm0
   externalIPs: [ "10.30.0.30" ] # Sample value: "192.168.1.123"

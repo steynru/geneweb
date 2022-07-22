@@ -20,12 +20,12 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 2317
-          protocol: TCP  
+          protocol: TCP
         volumeMounts:
-        - mountPath: /geneweb/bases
+        - mountPath: "/geneweb/bases"
           subPath: bases
           name: geneweb
-        - mountPath: /geneweb/geds
+        - mountPath: "/geneweb/geds"
           subPath: geds
           name: geneweb
       volumes:
